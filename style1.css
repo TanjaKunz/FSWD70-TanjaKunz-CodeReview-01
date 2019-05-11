@@ -1,0 +1,85 @@
+body {
+	width: 99%;
+	font-family: "Arial Narrow", Calibri, sans-serif;
+}
+
+#container {
+	width: 100%;
+	border: 0.5px solid grey;
+}
+
+/* ------ Header ------ */
+#header {
+	width: 100%;
+	position: relative;
+	border: 0.5px solid blue;
+	background-color: lightgrey;
+
+}
+
+/* ---- Navigation ---- */
+#nav {
+	position: relative;
+	width: 100%;
+	padding: 0.5em 0 0.5em 0;	
+	border: 0.5px solid red;
+	background-color: #653D3D;
+
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav li {	
+	display: inline;
+	width: 100%;
+	margin: 0.5em;	
+}
+
+nav a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+
+}
+
+/* ------- Main ------- */
+#main {
+	width: 100%;
+	position: relative;
+	border: 0.5px solid green;
+
+}
+
+#pMain {
+	margin: 1em 0;
+	text-align: center;
+	font-size:  300%;
+	font-weight: bold;
+}
+
+#h1Main {
+	background-color: #978484;
+	top: 8em;
+	position: sticky;
+	padding: 0.5em;
+	font-size: 100%;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+/* ------ Footer ------ */
+#footer {
+	width: 100%;
+	position: relative;
+	border: 0.5px solid orange;
+
+}
+
+#pFooter {
+	text-align: center;
+	font-size: 75%
+}
