@@ -20,7 +20,7 @@ body {
 
 #divHeader {
 	position: fixed;
-	background-color: lightgrey;
+	background-color: #EDEDED;
 	height: 6em;
 	width: 100%;
 	z-index: 2;
@@ -136,6 +136,9 @@ main img {
 .blogtext {
 	float: left;
 	margin: 5px;
+	text-decoration: none;
+	color: black;
+
 }
 
 /* ------ Footer ------ */

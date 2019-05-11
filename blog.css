@@ -1,0 +1,37 @@
+#h2Main {
+	top: 8em;
+	padding: 0.5em;
+	background-color: #EDEDED;
+	color: #653D3D;
+	font-size: 125%;
+	font-weight: bold;
+	z-index: 2;
+}
+
+#blogText {
+	float: left;
+
+}
+
+#blogImg {
+	float: left;
+
+	width: auto;
+	height: 350px;
+}
+
+article p {
+	margin: 0 10px;
+}
+
+
+
+span {
+	color: #978484;
+	font-weight: bold;
+}
+
+cite {
+	margin: 10px 10px;
+	color: black;
+}
